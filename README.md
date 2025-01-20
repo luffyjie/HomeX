@@ -7,7 +7,9 @@ I creat a project base on UIKit, using UINavigation as my router. After learing 
 https://developer.apple.com/videos/play/wwdc2022/10072/?time=1397
 I find the way how to combine them. like this :
 
+/// code
 class PWHomePageVC: PWUIViewController {
+
     var homeViewModel = PWHomeViewModel()
     
     override func viewDidLoad() {
@@ -30,8 +32,10 @@ class PWHomePageVC: PWUIViewController {
 
 Then the object will liftcyle is bind with VC now. we can skip the bad thing in swiftUI router.
 
-About the swiftUI discuss you can read this article https://jacobbartlett.substack.com/p/swiftui-apps-at-scale
+About the swiftUI discuss you can read this article 
 
-I hope this ideal can help you in using swiftUI. I belevie as apple says, it's right now to use swiftUI in your project.
+https://jacobbartlett.substack.com/p/swiftui-apps-at-scale
+
+I hope this template can help you in using swiftUI. I belevie as apple says, it's right now to use swiftUI in your project.
 
 Yes, we skip the pure swiftUI project, we embed it into trandition UIKit project, that's the best pose.
