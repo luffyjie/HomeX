@@ -1,5 +1,5 @@
 # HomeX
-swift ui work with UIKit
+swiftui work with UIKit
 
 Aa we known, the most issue in swiftUI is navigation. I try create a project in pure swiftUI, let me crazy is her bad navigation.
 I want to support iOS15, so I cannot use navigationstack. How to enjoy siwftUI fast UI benifis, the best way is use it in UIKit.
@@ -8,6 +8,7 @@ https://developer.apple.com/videos/play/wwdc2022/10072/?time=1397
 I find the way how to combine them. like this :
 
 /// code
+
 class PWHomePageVC: PWUIViewController {
 
     var homeViewModel = PWHomeViewModel()
@@ -30,7 +31,7 @@ class PWHomePageVC: PWUIViewController {
     }
 }
 
-Then the object will liftcyle is bind with VC now. we can skip the bad thing in swiftUI router.
+Then the object lifecycle is bind with VC now. we can skip the bad thing in swiftUI router.
 
 About the swiftUI discuss you can read this article 
 
